@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 15px;
+    margin: 5px;
+}
+
+.name {
+    color: black;
+    padding: 0px 10px 10px 10px;
+    float: left;
+}
+
+a   {
+    color: black;
+}
+
+.nav {
+    float: right;
+    padding-top: 8px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.container  {
+    clear: both;
+}
+
+.jumbotron  {
+    padding-bottom: 155px;
+    margin-top: 30px;
+}
+
+.bio-image  {
+    float: left;
+    margin-right: 20px;
+}
+
+.bio-text   {
+    margin: 20 px;
+}
+
+.col-md-6   {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 30px; /* Added */
+}
+
+#email-form {
+    padding: 0px 30px;
+}
+
+#fluid  {
+    padding-left: 60px;
+    padding-right: 60px;
+}
