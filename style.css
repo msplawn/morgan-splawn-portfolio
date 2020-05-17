@@ -42,6 +42,7 @@ a   {
 
 .bio-text   {
     margin: 20 px;
+    line-height: 2em;
 }
 
 .col-md-6   {
@@ -55,10 +56,30 @@ a   {
 }
 
 #email-form {
-    padding: 0px 30px;
+    padding: 0px 50px;
+    margin:auto;
 }
 
 #fluid  {
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+#exampleInputMessage1   {
+    height: 200px;
+    word-wrap: break-word;
+}
+
+footer  {
+    padding: 10px;
+    background-color: white;
+}
+
+h3  {
+    text-align: center;
+    font-weight: 200;
+    font-size: small;
+    color: gray;
 }
