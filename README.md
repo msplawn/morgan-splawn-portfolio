@@ -1,7 +1,7 @@
 # About Me Site
 
 ## **Live Link**
-[https://msplawn.github.io/Horiseon-Refactory/]
+[https://msplawn.github.io/bootstrap-about-me/]
 
 ## **Contributors**
 @msplawn
