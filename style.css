@@ -72,16 +72,20 @@ a   {
     margin-bottom: 30px; /* Added */
 }
 
-#email-form {
-    padding: 0px 50px;
-    margin:auto;
+section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #email-form {
-    padding-left: 150px;
-    padding-right: 150px;
-    
+    padding: 0px 80px;
+    margin:auto;
+
 }
+
+
 
 #fluid  {
     padding-left: 60px;
