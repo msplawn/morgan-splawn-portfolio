@@ -75,17 +75,13 @@ a   {
 section {
     width: 100%;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 #email-form {
     padding: 0px 80px;
     margin:auto;
-
 }
-
-
 
 #fluid  {
     padding-left: 60px;
