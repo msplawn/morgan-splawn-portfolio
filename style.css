@@ -63,6 +63,12 @@ a   {
     margin:auto;
 }
 
+#email-form {
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 600px;
+}
+
 #fluid  {
     padding-left: 60px;
     padding-right: 60px;
@@ -87,11 +93,13 @@ h3  {
     color: gray;
 }
 
-#email-form {
-    padding-left: 150px;
-    padding-right: 150px;
-    width: 600px;
+.icons  {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .nav    {
