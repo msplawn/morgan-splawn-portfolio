@@ -90,6 +90,7 @@ h3  {
 #email-form {
     padding-left: 150px;
     padding-right: 150px;
+    width: 600px;
 }
 
 @media screen and (max-width: 768px) {
