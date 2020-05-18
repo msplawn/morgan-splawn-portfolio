@@ -48,8 +48,22 @@ a   {
     line-height: 2em;
 }
 
+#clearfloat {
+    clear: both;
+    padding: 20px 0px;
+}
+
 .col-md-6   {
     text-align: center;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .card {
@@ -66,7 +80,7 @@ a   {
 #email-form {
     padding-left: 150px;
     padding-right: 150px;
-    width: 600px;
+    
 }
 
 #fluid  {
@@ -103,7 +117,17 @@ h3  {
 
 @media screen and (max-width: 768px) {
     .nav    {
+        width: 100%;
         clear: both;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name   {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 }
