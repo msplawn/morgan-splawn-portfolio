@@ -36,11 +36,11 @@ a   {
 }
 
 .bio-image  {
-    float: left;
     margin-right: 20px;
     margin-bottom: 5px;
-    object-fit: contain;
     height: 280px;
+    object-fit: contain;
+    float: left;
 }
 
 .bio-text   {
@@ -57,19 +57,17 @@ a   {
     text-align: center;
 }
 
-.fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+#fluid  {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 30px; /* Added */
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 30px; 
 }
 
 section {
@@ -81,13 +79,6 @@ section {
 #email-form {
     padding: 0px 80px;
     margin:auto;
-}
-
-#fluid  {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 5px;
-    margin-bottom: 40px;
 }
 
 #exampleInputMessage1   {
