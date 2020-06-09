@@ -106,8 +106,13 @@ h3  {
 
 .icons  {
     max-width: 100%;
-    height: auto;
+    height: 80px;
     padding: 20px;
+}
+
+.logos  {
+    margin-top: 60px;
+
 }
 
 
@@ -127,4 +132,5 @@ h3  {
         justify-content: center;
         text-align: center;
     }
+
 }
