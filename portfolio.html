@@ -1,158 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Morgan Splawn | Portfolio</title>
-  </head>
-  <body>
-  
+</head>
+
+<body>
     <nav>
-       <!-- Navigation Bar-->
+        <!-- Navigation Bar-->
         <div class="name">
             <a href="index.html">
                 <h1>Morgan Splawn</h1>
             </a>
         </div>
 
-
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
+                <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
-          </ul>
+        </ul>
     </nav>
 
     <div class="container">
-
         <div class="row">
-
-            <div class="column-md-1">
-
-            </div>
+            <div class="column-md-1"></div>
 
             <div class="column-md-10">
                 <div class="jumbotron jumbotron-fluid" id="fluid">
+                    <h2 class="display-4">Portfolio</h2>
+                    <p class="lead">
+                        Click the links to view some projects I've worked on.
+                    </p>
+
+                    <div class="row">
+                        <!-- Portfolio Card Row-->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/simplysomm.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Simply Somm</h5>
+                                    <p class="card-text">
+                                        An app built with Sequelize to find wine or whiskey
+                                        according to your preferred tastes and aromas.
+                                    </p>
+                                    <a href="https://metric-drake-50737.herokuapp.com/whiskey"
+                                        class="btn btn-primary">Try it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/onhand.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">OnHand</h5>
+                                    <p class="card-text">
+                                        A site that pulls recipes for meals and cocktails based on
+                                        ingredients you have on hand.
+                                    </p>
+                                    <a href="https://msplawn.github.io/on-hand/" class="btn btn-primary">Try it out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Portfolio Card Row-->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/lilypad.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">The Lily Pad</h5>
+                                    <p class="card-text">
+                                        A MERN Stack step sequencer that allows users to build drum loops and save them using MongoDB.
+                                    </p>
+                                    <a href="https://warm-oasis-97248.herokuapp.com/"
+                                        class="btn btn-primary">Try it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/portfoliohome.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">React Portfolio</h5>
+                                    <p class="card-text">
+                                        A personal portfolio site built with React using a cartoon bitmoji.
+                                    </p>
+                                    <a href="https://msplawn.github.io/react-portfolio/" class="btn btn-primary">Try it out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
-                        <h2 class="display-4">Portfolio</h2>
-                        <p class="lead">Click the links to view some projects I've worked on.</p>
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <!-- Portfolio Cards-->
-                                <div class="card" >
-                                    <img class="card-img-top" src="assets/onhand.png" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">OnHand</h5>
-                                      <p class="card-text">A site that pulls recipes for meals and cocktails based on ingredients you have on hand.</p>
-                                      <a href="https://msplawn.github.io/on-hand/" class="btn btn-primary">Try it out</a>
-                                    </div>
+                    <div class="row">
+                        <!-- Portfolio Card Row-->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/templateengine.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Template Engine</h5>
+                                    <p class="card-text">
+                                        A command line application that allows employers to enter information about their employees to builds a html template with their input.
+                                    </p>
+                                    <a href="https://github.com/msplawn/template-engine-employee-summary"
+                                        class="btn btn-primary">Try it out</a>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
-                                    <div class="card" >
-                                        <img class="card-img-top" src="assets/codequiz.png" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Code Quiz</h5>
-                                            <p class="card-text">A simple, responsive, dynamic coding quiz using HTML, CSS, Bootstrap, and Javascript. </p>
-                                            <a href="https://msplawn.github.io/code-quiz/" class="btn btn-primary">Try it out</a>
-                                        </div>
-                                    </div>
-                            </div>
-
                         </div>
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="card" >
-                                    <img class="card-img-top" src="assets/dayplanner.png" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Day Planner</h5>
-                                      <p class="card-text">A day planner using moments.js and local storage to keep track of a 9 to 5 workday.</p>
-                                      <a href="https://msplawn.github.io/day-planner/" class="btn btn-primary">Try it out</a>
-                                    </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/notetaker.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Note Taker</h5>
+                                    <p class="card-text">
+                                        A note taking application that uses an Express backend to save and retrieve note data from a JSON database.
+                                    </p>
+                                    <a href="https://polar-sea-81217.herokuapp.com/" class="btn btn-primary">Try it out</a>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
-                                    <div class="card" >
-                                        <img class="card-img-top" src="assets/passwordgenerator.png" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Password Generator</h5>
-                                            <p class="card-text">A website that uses javascript to generate a random password based on user criteria.</p>
-                                            <a href="https://msplawn.github.io/password-generator/" class="btn btn-primary">Try it out</a>
-                                        </div>
-                                    </div>
-                            </div>
-
                         </div>
+                    </div>
 
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="card" >
-                                    <img class="card-img-top" src="assets/horiseon.png" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Horiseon Refactor</h5>
-                                      <p class="card-text">A refactored website for a SEO company to prioritize semantic coding and accessibility.</p>
-                                      <a href="https://msplawn.github.io/Horiseon-Refactory/" class="btn btn-primary">Try it out</a>
-                                    </div>
+                    <div class="row">
+                        <!-- Portfolio Card Row-->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/dayplanner.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Planner</h5>
+                                    <p class="card-text">
+                                        A day planner using moments.js and local storage to keep
+                                        track of a 9 to 5 workday.
+                                    </p>
+                                    <a href="https://msplawn.github.io/day-planner/" class="btn btn-primary">Try it
+                                        out</a>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
-                                    <div class="card" >
-                                        <img class="card-img-top" src="./assets/burger.png" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Eat Da Burger!</h5>
-                                            <p class="card-text">An MYSQL based application to keep track of burgers you want to eat.</p>
-                                            <a href="https://agile-everglades-70833.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                            </div>
-
                         </div>
 
-                    
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/passwordgenerator.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Password Generator</h5>
+                                    <p class="card-text">
+                                        A website that uses javascript to generate a random
+                                        password based on user criteria.
+                                    </p>
+                                    <a href="https://msplawn.github.io/password-generator/" class="btn btn-primary">Try
+                                        it out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Portfolio Card Row-->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="./assets/burger.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Eat Da Burger!</h5>
+                                    <p class="card-text">
+                                        An MYSQL based application to keep track of burgers you
+                                        want to eat.
+                                    </p>
+                                    <a href="https://agile-everglades-70833.herokuapp.com/" class="btn btn-primary">Go
+                                        somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/codequiz.png" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Code Quiz</h5>
+                                    <p class="card-text">
+                                        A simple, responsive, dynamic coding quiz using HTML, CSS,
+                                        Bootstrap, and Javascript.
+                                    </p>
+                                    <a href="https://msplawn.github.io/code-quiz/" class="btn btn-primary">Try it
+                                        out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="column-md-1">
-                
-            </div>
-
+            <div class="column-md-1"></div>
         </div>
-
     </div>
 
     <footer class="fixed-bottom">
         <!-- Footer -->
-        <h3>A Morgan Splawn Joint </h3>
-
+        <h3>A Morgan Splawn Joint</h3>
     </footer>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

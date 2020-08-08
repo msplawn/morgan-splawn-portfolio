@@ -3,6 +3,13 @@
 ## **Live Link**
 [https://msplawn.github.io/bootstrap-about-me/]
 
+# **Screen Shots**
+![Demo](./assets/about.png)
+
+![Demo](./assets/portfolio.png)
+
+![Demo](./assets/contact.png)
+
 ## **Contributors**
 @msplawn
 
