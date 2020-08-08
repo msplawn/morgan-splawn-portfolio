@@ -3,9 +3,15 @@
 ## **Live Link**
 [https://msplawn.github.io/bootstrap-about-me/]
 
+# **Screen Shots**
+![Demo](./assets/about.png)
+
+![Demo](./assets/portfolio.png)
+
+![Demo](./assets/contact.png)
+
 ## **Contributors**
 @msplawn
-
 
 # **Project Description**
 For this project I created a 3 page website about myself using Bootstrap. My goal was to create a navigation bar and a responsive layout compatible on all sized viewports. I wanted to achieve this with minimal use of media queries. I also tried to utilize Bootstrap's row & column system efficiently.
