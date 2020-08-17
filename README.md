@@ -1,7 +1,7 @@
 # About Me Site
 
 ## **Live Link**
-[https://msplawn.github.io/bootstrap-about-me/]
+[https://msplawn.github.io/morgan-splawn-portfolio/]
 
 # **Screen Shots**
 ![Demo](./assets/about.png)
@@ -23,8 +23,8 @@ The site's purpose is threefold. The index is meant to tell possible employers a
 * HTML 
 * CSS
 * Bootstrap
-* Javascript
-* Media Query
+* JavaScript
+* Media Queries
 
 # **Contact**
 * ### **Name:**  Morgan Splawn @msplawn
