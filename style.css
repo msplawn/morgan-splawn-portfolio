@@ -72,6 +72,16 @@ a   {
     margin-bottom: 30px; 
 }
 
+#contact-subhead    {
+    justify-content: center;
+    display: flex;
+}
+
+#subhead    {
+    font-size: 30px;
+    font-weight: 300;
+}
+
 .card-img-top   {
     max-height: 400px;
     height: 400px;
@@ -117,6 +127,11 @@ h3  {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cardbutton {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
