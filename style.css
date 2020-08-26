@@ -40,13 +40,13 @@ a   {
 .bio-image  {
     margin-right: 20px;
     margin-bottom: 5px;
-    height: 280px;
+    height: 450px;
     object-fit: contain;
     float: left;
 }
 
 .bio-text   {
-    margin: 20 px;
+    margin: 20px;
     line-height: 2em;
 }
 
