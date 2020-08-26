@@ -134,10 +134,13 @@ h3  {
     margin-right: 5px;
 }
 
-
+#email {
+    color: #007bff;;
+}
 
 @media screen and (max-width: 768px) {
     .nav    {
+        display: flex;
         width: 100%;
         clear: both;
         text-align: center;
@@ -149,6 +152,16 @@ h3  {
         width: 100%;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+
+    .bio-image  {
+        width: 350px;
+    }
+
+    .jumbotron  {
+        padding-bottom: 155px;
+        margin-top: 0px;
         text-align: center;
     }
 
