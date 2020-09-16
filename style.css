@@ -33,14 +33,14 @@ a   {
 }
 
 .jumbotron  {
-    padding-bottom: 155px;
+    padding-bottom: 130px;
     margin-top: 30px;
 }
 
 .bio-image  {
     margin-right: 20px;
     margin-bottom: 5px;
-    height: 450px;
+    height: 375px;
     object-fit: contain;
     float: left;
 }
