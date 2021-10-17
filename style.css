@@ -38,9 +38,10 @@ a   {
 }
 
 .bio-image  {
-    margin-right: 20px;
-    margin-bottom: 5px;
-    height: 375px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    height: 450px;
     object-fit: contain;
     float: left;
 }
@@ -52,7 +53,7 @@ a   {
 
 #clearfloat {
     clear: both;
-    padding: 20px 0px;
+    padding: 5px 0px 20px 0px;
 }
 
 .col-md-6   {
@@ -136,6 +137,14 @@ h3  {
 
 #email {
     color: #007bff;;
+}
+
+h2  {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
